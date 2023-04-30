@@ -1,0 +1,89 @@
+/* Uinversal Styles */
+html{
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    border: solid grey 2px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+h2{
+    margin: 5px 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* Heading */
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Color Section */
+div.color{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+div.paleblue{
+    background-color: #b8e7ff;
+    color: gray;
+}
+
+div.lightblue{
+    background-color: #66ccff;
+}
+
+div.mediumblue{
+    background-color: #0c76ab;
+    color: white;
+}
+
+div.darkblue{
+    background-color: #081f2b;
+    color: white;
+}
+
+/* Font Section */
+h3{
+    text-decoration: underline;
+}
+
+div.font{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+p.bold{
+    font-weight: bold;
+}
+
+p.italic{
+    font-style: italic;
+}
+
+div.raleway{
+    font-family: "Raleway";
+}
+
+div.mali{
+    font-family: "Mali";
+}
+
+div.monospace{
+    font-family: "IBM Plex Mono";
+}
+
+/* Text Styles Section */
+.h1, .p{
+    text-align: left;
+    margin: 15px;
+}
